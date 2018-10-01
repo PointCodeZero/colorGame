@@ -1,0 +1,79 @@
+html {
+  background-color: #232323;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  line-height: 2.7rem;
+  background-color: steelblue;
+  color: aliceblue;
+}
+
+button {
+  color: steelblue;
+  background: none;
+  border: none;
+  padding: 0.2rem 1rem;
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  outline: none; /* take the border out that the browser push on us */
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+  transition: background-color 0.5s;
+  -webkit-transition: all 0.5s; /* support transition in other browsers */
+  -moz-transition: all 0.5s; /* support transition in other browsers */
+}
+
+#container {
+  width: 70% auto;
+  text-align: center;
+}
+
+#displayColor {
+  font-size: 3.3rem;
+}
+
+#message {
+  display: inline-block;
+  width: 30%;
+}
+
+.button {
+  background-color: aliceblue;
+}
+
+.squares {
+  background-color: purple;
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+  padding-bottom: 30%;
+  border-radius: 1.6rem;
+  transition: background-color 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.box-size{
+  max-width: 600px;
+  margin: 1.6rem auto;
+  background-color: #232323;
+}
+
+.selected {
+  color: white;
+  background-color: steelblue;
+}
